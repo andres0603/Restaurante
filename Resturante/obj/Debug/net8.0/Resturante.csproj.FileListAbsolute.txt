@@ -1,0 +1,14 @@
+C:\Users\pipe\Desktop\Resturante\Resturante\bin\Debug\net8.0\Resturante.exe
+C:\Users\pipe\Desktop\Resturante\Resturante\bin\Debug\net8.0\Resturante.deps.json
+C:\Users\pipe\Desktop\Resturante\Resturante\bin\Debug\net8.0\Resturante.runtimeconfig.json
+C:\Users\pipe\Desktop\Resturante\Resturante\bin\Debug\net8.0\Resturante.dll
+C:\Users\pipe\Desktop\Resturante\Resturante\bin\Debug\net8.0\Resturante.pdb
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\Resturante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\Resturante.AssemblyInfoInputs.cache
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\Resturante.AssemblyInfo.cs
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\Resturante.csproj.CoreCompileInputs.cache
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\Resturante.dll
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\refint\Resturante.dll
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\Resturante.pdb
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\Resturante.genruntimeconfig.cache
+C:\Users\pipe\Desktop\Resturante\Resturante\obj\Debug\net8.0\ref\Resturante.dll
