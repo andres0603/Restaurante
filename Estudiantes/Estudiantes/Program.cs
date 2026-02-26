@@ -16,16 +16,29 @@ lista_estudiantes.Add(new Estudiantes() { Id = 2, Cedula = "854", Nombre = "Andr
 lista_estudiantes.Add(new Estudiantes() { Id = 3, Cedula = "236", Nombre = "Pedro", Activo = true, Edad = 70, Grupo = 1 });
 
 var lista_notas = new List<Notas>();
-lista_notas.Add(new Notas() { Id = 1, Materia = 1, Estudiante = 2, Nota1 = 3.0m, Nota2 = 4.5m, Nota3 = 1.0m, Nota4 = 2.9m, Nota5 = 4.0m, NotaF = 3.1m });
+/*lista_notas.Add(new Notas() { Id = 1, Materia = 1, Estudiante = 2, Nota1 = 3.0m, Nota2 = 4.5m, Nota3 = 1.0m, Nota4 = 2.9m, Nota5 = 4.0m, NotaF = 3.1m });
 lista_notas.Add(new Notas() { Id = 2, Materia = 3, Estudiante = 3, Nota1 = 2.0m, Nota2 = 3.0m, Nota3 = 4.0m, Nota4 = 2.0m, Nota5 = 0.0m, NotaF = 2.2m });
 lista_notas.Add(new Notas() { Id = 3, Materia = 2, Estudiante = 2, Nota1 = 3.5m, Nota2 = 4.0m, Nota3 = 2.9m, Nota4 = 1.3m, Nota5 = 4.2m, NotaF = 3.2m });
-
+*/
 var estudiantes_activos = lista_estudiantes.Count(x => x.Activo);
 Console.WriteLine("Estudiantes activos: " + estudiantes_activos);
 
 var nota = new Notas() { Id = 4, Materia = 1, Estudiante = 1, Nota1 = 3.5m, Nota2 = 4.0m, Nota3 = 2.9m, Nota4 = 1.3m, Nota5 = 4.2m };
 nota.NotaF = Calculos.Promedio(nota);
-Console.WriteLine("Nota final: " + nota.NotaF);
+lista_notas.Add(nota);
+
+foreach(var n in lista_notas)
+{
+    Console.WriteLine(n.Id);
+    Console.WriteLine(n.Materia);
+    Console.WriteLine(n.Estudiante);
+    Console.WriteLine(n.Nota1);
+    Console.WriteLine(n.Nota2);
+    Console.WriteLine(n.Nota3);
+    Console.WriteLine(n.Nota4);
+    Console.WriteLine(n.Nota5);
+    Console.WriteLine(n.NotaF);
+}
 
 public class Calculos
 {
